@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:3306
--- Généré le :  Mer 04 Novembre 2020 à 10:24
+-- Généré le :  Jeu 05 Novembre 2020 à 14:01
 -- Version du serveur :  10.1.41-MariaDB-0+deb9u1
 -- Version de PHP :  7.0.33-0+deb9u6
 
@@ -96,7 +96,8 @@ CREATE TABLE `utilisateurs` (
   `precisionSituation` varchar(150) NOT NULL,
   `classeFrequentee` int(11) DEFAULT NULL,
   `RGPD` tinyint(1) NOT NULL DEFAULT '0',
-  `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+  `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -169,7 +170,7 @@ ALTER TABLE `formationsPrebac`
 -- AUTO_INCREMENT pour la table `utilisateurs`
 --
 ALTER TABLE `utilisateurs`
-  MODIFY `idUtilisateurs` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `idUtilisateurs` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
 --
 -- Contraintes pour les tables exportées
 --
