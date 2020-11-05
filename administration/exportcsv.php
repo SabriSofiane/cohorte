@@ -26,18 +26,19 @@ try {
     $stmt = $bdd->query($sql);
 
 
-    echo "Nom,Prenom,Date de naissance,Telephone,Email,Classe Prebac,Situation actuelle\n";
+    echo "Nom;Prenom;Date de naissance;Telephone;Email;Classe Prebac;Situation actuelle;Précision\n";
     while ($eleve = $stmt->fetchObject()) {
 
 
 
-        echo "    {$eleve->nom},";
-        echo "    {$eleve->prenom},";
-        echo "    {$eleve->dateDeNaissance},";
-        echo "    {$eleve->numeroTel},";
-        echo "    {$eleve->adresseEmail},";
-        echo "    {$eleve->nomFormationsPrebac},";
-        echo "    {$eleve->nomFormationsPostbac},";
+        echo "    {$eleve->nom};";
+        echo "    {$eleve->prenom};";
+        echo "    {$eleve->dateDeNaissance};";
+        echo "    {$eleve->numeroTel};";
+        echo "    {$eleve->adresseEmail};";
+        echo "    {$eleve->nomFormationsPrebac};";
+        echo "    {$eleve->nomFormationsPostbac};";
+        echo "    {$eleve->precisionSituation};";
 
         echo "\n";
     }

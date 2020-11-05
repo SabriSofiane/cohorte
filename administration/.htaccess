@@ -1,4 +1,4 @@
-AuthName "Accès réservé"
+AuthName "Access reserved"
 AuthType Basic
 AuthUserFile "/var/www/cohorte/administration/.htpasswd"
 Require valid-user

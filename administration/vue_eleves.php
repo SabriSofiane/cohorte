@@ -145,8 +145,8 @@ if (isset($_POST['btn_supprimer'])) {
                     }
                     if (checkbox_val.length == 1) {
                         //On va prendre l'id de l'utilisateur et le mêttre dans le formulaire en modification
-                        console.log("../formulaire.php?id" + checkbox_val[0]);
-                        window.location = '../formulaire.php?id=' + checkbox_val[0];
+                        console.log("./formulaire.php?id" + checkbox_val[0]);
+                        window.location = './formulaire.php?id=' + checkbox_val[0];
                     }
                 });
 
@@ -160,7 +160,7 @@ if (isset($_POST['btn_supprimer'])) {
     </head>
     <body>
         <?php require_once '../menu.php'; ?>
-        <div class="container" style="padding-top: 65px;">
+        <div class="container" style="padding-top: 5px; max-width: 1500px;">
             <div class="row popin card">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div  class="card-header" style=""><h4>Vue des élèves</h4></div>
@@ -189,15 +189,17 @@ if (isset($_POST['btn_supprimer'])) {
 
 
                             <a href="./exportcsv.php" type="button" class="btn btn-secondary">Exporter en .csv</a>
-
+                            <a href="./formulaire.php" type="button" class="btn btn-secondary">Ajouter</a>
                             <input id="btn_mod" name="btn_modifier" value="Modifier" class="btn btn-secondary" readonly size="9">
                             <input id="btn_supp" name="btn_supprimer" value="Supprimer" class="btn btn-danger" readonly size="9">
 
 
-                        </form>	
+
+                        </form>
+                        <p></br></br></br></p>	
                     </div>
                 </div>
             </div>
-
+            <?php require_once './footer.php';?>
     </body>
 </html>

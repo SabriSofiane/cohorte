@@ -124,7 +124,8 @@ function modifierUtilisateur($eleve) {
                 . "`adresseEmail` = :adresseEmail, "
                 . "`situationActuelle` = :situationActuelle, "
                 . "`precisionSituation` = :precisionSituation, "
-                . "`classeFrequentee` = :classeFrequentee "
+                . "`classeFrequentee` = :classeFrequentee, "
+                . "`updated` = now() "
                 . "WHERE `utilisateurs`.`idUtilisateurs` = :idUtilisateurs;");
         $requete->bindParam(":nom", $eleve->nom);
         $requete->bindParam(":prenom", $eleve->prenom);
