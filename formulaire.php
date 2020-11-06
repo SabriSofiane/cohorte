@@ -25,7 +25,7 @@ if (isset($_GET['id'])) {
 <!--
 Createur : Sabri Sofiane
 Date de création : 13 octobre 2020
-Modified   : 6 nov. 2020, 10:41:39
+Modified   : 6 nov. 2020, 11:26:39
 Description : Le formulaire auquel l'utilisateur va remplir pour effectuer son suivi de cohorte
 Powered with Bootstrap
 -->
@@ -92,7 +92,7 @@ Powered with Bootstrap
 
                         </div>
 
-                        <br>
+                        <br/>
                         <div class="form-row">
                             <label for="nom" class="col-sm-2 col-form-label">Donnez votre nom*:</label>
                             <div class="col-xs-4 ">
@@ -104,10 +104,10 @@ Powered with Bootstrap
                         <div class="form-row">
                             <label for="dateDeNaissance" class="col-sm-2 col-form-label">Donnez votre date de naissance*:</label>
                             <div class="col-xs-4 ">
-                                <input type="date" value="<?php echo $eleve->dateDeNaissance; ?>" class="form-control" name="dateDeNaissance" id="dateDeNaissance" required="required" data-date-end-date="0d">
+                                <input type="date" value="<?php echo $eleve->dateDeNaissance; ?>" class="form-control" name="dateDeNaissance" placeholder="jj/mm/aaaa" id="dateDeNaissance" required="required" data-date-end-date="0d">
                             </div>
                         </div>
-                        <br>
+                        <br/>
                         <div class="form-row">
                             <label for="classeFrequentee" class="col-sm-2 col-form-label" >Classe fréquentée lors du diplôme*:</label>
                             <div class="col-xs-4 ">
@@ -118,7 +118,7 @@ Powered with Bootstrap
 
                             </div>
                         </div>
-                        <br>
+                        <br/>
                         <div class="form-row">
                             <label for="situationActuelle" class="col-sm-2 col-form-label">Selectionnez votre situation actuelle*:</label>
                             <div class="col-sm-10">
@@ -135,8 +135,8 @@ Powered with Bootstrap
                                 <input type="text" value="<?php echo $eleve->precisionSituation; ?>" class="form-control" placeholder="Préciser" name="precisionSituation" id="precisionSituation" required="required" >
                             </div>
                         </div>
-                        <br>
-                        <br>
+                        <br/>
+                        <br/>
                         <div class="form-row">
                             <label for="numeroTel" class="col-sm-2 col-form-label">Numéro de téléphone:</label>
                             <div class="col-xs-4 ">
@@ -145,16 +145,16 @@ Powered with Bootstrap
                             </div>
                             <br>
                         </div>
-                        <br>
+                        <br/>
                         <div class="form-row">
                             <label for="addressEmail" class="col-sm-2 col-form-label">Adresse mail valable*:</label>
                             <div class="col-xs-4 ">
                                 <input type="email" value="<?php echo $eleve->adresseEmail; ?>" class="form-control" placeholder="un@exemple.com" id="adresseEmail" name="adresseEmail" required="required">
                             </div>
-                            <br>
+                            <br/>
 
                         </div>
-                        <br>
+                        <br/>
                         <?php
                         if (!isset($_GET['id'])) {
 
@@ -168,12 +168,17 @@ Powered with Bootstrap
                         }
                         ?>
                         <small>* :champ obligatoire</small>
-                        <br>
-                        <br>
+                        <br/>
+                        <br/>
+                        
 
                         <div class="form-row " >
                             <button type="submit" class="btn btn-primary  ">Envoyer</button>
                         </div>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
 
                     </div>
                 </form>
