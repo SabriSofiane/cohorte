@@ -130,9 +130,9 @@ Powered with Bootstrap
 
                         </div>
                         <div class="form-row">
-                            <label for="nom" class="col-sm-2 col-form-label">Veuillez préciser*:</label>
+                            <label for="nom" class="col-sm-2 col-form-label">Veuillez préciser votre situation*:</label>
                             <div class="col-xs-4 ">
-                                <input type="text" value="<?php echo $eleve->precisionSituation; ?>" class="form-control" placeholder="Préciser" name="precisionSituation" id="precisionSituation" required="required" >
+                                <input type="text" value="<?php echo $eleve->precisionSituation; ?>" class="form-control" placeholder="DUT informatique..." name="precisionSituation" id="precisionSituation" required="required" >
                             </div>
                         </div>
                         <br/>
