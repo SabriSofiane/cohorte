@@ -52,10 +52,10 @@ Powered with Bootstrap
     <body>
 
         <a href="index.php" class="logo" >
-            <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" class="logo" style="padding-left: 12px;padding-top: 12px;" />
+            <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" class="logo" style="padding-left: 12px;padding-top: 65px;" />
         </a>
         <div class="container-fluid">
-            <h1 class="titre" style="right: 600px;"  >Suivi d'inscription</h1>
+            <h1 class="titreFormulaire"   >Suivi d'inscription</h1>
         </div>
         <div class="container-fluid "> 
             <a href="index.html">
@@ -85,7 +85,7 @@ Powered with Bootstrap
 
                         <div class="form-row">
                             <label for="prenom" class="col-sm-2 col-form-label">Donnez votre prénom*:</label>
-                            <div class="col-sm-10">
+                            <div class="col-xs-4 ">
                                 <input type="text" value="<?php echo $eleve->prenom; ?>" class="form-control" name="prenom" placeholder="Prénom" id="prenom" required="required" pattern="^[a-zA-Z\-çïéêëîÏÎËÊÉÈÇœ' ]*$">
                             </div>
 
@@ -94,7 +94,7 @@ Powered with Bootstrap
                         <br>
                         <div class="form-row">
                             <label for="nom" class="col-sm-2 col-form-label">Donnez votre nom*:</label>
-                            <div class="col-sm-10">
+                            <div class="col-xs-4 ">
                                 <input type="text" value="<?php echo $eleve->nom; ?>" class="form-control" placeholder="Nom" name="nom" id="nom" required="required" pattern="^[a-zA-Z\-çïéêëîÏÎËÊÉÈÇœ' ]*$">
                             </div>
                         </div>
@@ -102,14 +102,14 @@ Powered with Bootstrap
                         <br>
                         <div class="form-row">
                             <label for="dateDeNaissance" class="col-sm-2 col-form-label">Donnez votre date de naissance*:</label>
-                            <div class="col-sm-10">
+                            <div class="col-xs-4 ">
                                 <input type="date" value="<?php echo $eleve->dateDeNaissance; ?>" class="form-control" name="dateDeNaissance" id="dateDeNaissance" required="required" data-date-end-date="0d">
                             </div>
                         </div>
                         <br>
                         <div class="form-row">
                             <label for="classeFrequentee" class="col-sm-2 col-form-label" >Classe fréquentée lors du diplôme*:</label>
-                            <div class="col-sm-10">
+                            <div class="col-xs-4 ">
                                 <?php
                                 genererListeFormationsPrebac($eleve->classeFrequentee);
                                 ?>
@@ -130,7 +130,7 @@ Powered with Bootstrap
                         </div>
                         <div class="form-row">
                             <label for="nom" class="col-sm-2 col-form-label">Veuillez préciser*:</label>
-                            <div class="col-sm-10">
+                            <div class="col-xs-4 ">
                                 <input type="text" value="<?php echo $eleve->precisionSituation; ?>" class="form-control" placeholder="Préciser" name="precisionSituation" id="precisionSituation" required="required" >
                             </div>
                         </div>
@@ -138,7 +138,7 @@ Powered with Bootstrap
                         <br>
                         <div class="form-row">
                             <label for="numeroTel" class="col-sm-2 col-form-label">Numéro de téléphone:</label>
-                            <div class="col-sm-10">
+                            <div class="col-xs-4 ">
                                 <input type="tel" value="<?php echo $eleve->numeroTel; ?>" class="form-control" placeholder="00.00.00.00.00"id="numeroTel" name="numeroTel" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}">
                                 <small>Format : 01.02.03.04.05</small>
                             </div>
@@ -147,7 +147,7 @@ Powered with Bootstrap
                         <br>
                         <div class="form-row">
                             <label for="addressEmail" class="col-sm-2 col-form-label">Adresse mail valable*:</label>
-                            <div class="col-sm-10">
+                            <div class="col-xs-4 ">
                                 <input type="email" value="<?php echo $eleve->adresseEmail; ?>" class="form-control" placeholder="un@exemple.com" id="adresseEmail" name="adresseEmail" required="required">
                             </div>
                             <br>

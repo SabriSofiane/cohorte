@@ -16,7 +16,7 @@ Powered with Bootstrap v4.5.3
     <body>
         <div class="container-fluid touchard"> 
             <a href="index.php">
-                <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" style="padding-bottom: 12px;" />
+                <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" style="padding-top: 30px;" />
             </a>
 
 
@@ -31,9 +31,7 @@ Powered with Bootstrap v4.5.3
                 <h1 class="titre ">Nous contacter</h1>
                 <div class="description2">
                     <p>
-                        <br>
-                        <br>
-                        <br>
+                       
                        
 
                         <a class="bold">Lycée Polyvalent Touchard – Washington</a>
@@ -44,7 +42,7 @@ Powered with Bootstrap v4.5.3
                         <br>
                         <a class="bold">Standard et accueil:</a> 02.43.50.16.20
                         <br>
-                        __________________________________________________
+                        ________________________________
                         <br>
                         <br>
 
@@ -71,7 +69,7 @@ Powered with Bootstrap v4.5.3
                         <br>
 
                         <a class="bold">Mission de Lutte contre le Décrochage scolaire:</a> 02.43.50.16.41
-                        <br>
+                        
 
                     </p>
 

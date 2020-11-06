@@ -16,7 +16,7 @@ Powered with Bootstrap v4.5.3
     <body>
         <div class="container-fluid touchard"> 
             <a href="index.php">
-                <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" style="padding-bottom: 12px;"/>
+                <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" style="padding-top: 30px;"/>
             </a>
 
 
@@ -31,9 +31,7 @@ Powered with Bootstrap v4.5.3
                 <h1 class="titre ">Mentions légales</h1>
                 <div class="description2">
                     <p>
-                        <br>
-                        <br>
-                        <br>
+                        
                         <a class="bold">
                             Proviseur:
                         </a>
@@ -61,8 +59,8 @@ Powered with Bootstrap v4.5.3
                         Ou directement par mail:<br>
                         <a href="mailto:ddfindus.touchardwashington@ac-nantes.fr">ddfindus.touchardwashington@ac-nantes.fr</a>
                         <br>
-                        <br> 
                         
+                        <br> 
 
 
 

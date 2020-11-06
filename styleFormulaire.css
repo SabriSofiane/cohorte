@@ -5,16 +5,15 @@
     Description : Style du formulaire à remplir 
 */
 
-.titre{
+.titreFormulaire{
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 3.14rem;
+    font-size: 2.14rem;
     color: #00569D;
-    right: 50%;
+    padding-top: 40px;
     line-height: 1;
-    position: absolute;
-    margin-top: 11px;
-    bottom: 89%;
+    
+    
 }
 
 /*.touchard
@@ -43,7 +42,7 @@
     right: 50px;
 }
 .col-sm-10 {
-    max-width: 20%;
+   
     
 }
 .boite{

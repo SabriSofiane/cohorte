@@ -96,10 +96,11 @@ a:hover{
     font-weight: bold;
     font-size: 2.14rem;
     color: #00569D;
-    right: 50%;
+    padding-top: 20px;
+    padding-left: 50px;
+    
     line-height: 1;
-    position: absolute;
-    margin-top: 20px
+    
 }
 .description
 {
@@ -128,12 +129,6 @@ a:hover{
 .btn-primary
 {
     background-color: #00569d;
-}
-
-.bouton{
-    
-    left: 80%;
-    position:absolute;
 }
 
 

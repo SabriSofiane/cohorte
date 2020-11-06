@@ -15,29 +15,29 @@ Powered with Bootstrap v4.5.3
     </head>
     <body>
         <div class="container-fluid touchard"> 
-            <a href="index.php">
-                
-                <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" style="padding-bottom: 12px;"/>
-                
-            </a>
+            
 
             <?php require_once 'menu.php'; ?>
+            <a href="index.php">
+                
+                <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" style="padding-top: 30px;"/>
+                
+            </a>
 
             <!--        <div class="alert-success">Dropdown hover</div>-->
             
         </div>
         <div class="boite container-fluid">
-            <div class="container-fluid boite1">
-                <h1 class="titre ">Suivi de parcours après votre bac</h1>
+            <div class="container-fluid  boite1">
+                <h1 class="titre">Suivi de parcours après votre bac</h1>
                 <div class="description">
                     <p>
-                        <br>
-                        <br>
+                        
                         Le Lycée polyvalent Touchard Washington accueille 1900 élèves en prébac et 600 étudiants de post bac<br>
                         dans des filières professionnelles, technologiques et générales. Si vous voulez réinscrire votre enfant <br>
                         dans l'établissement, le Lycée assure un suivi de cohorte à trois et six mois.
                     </p>
-                    <a href="formulaire.php">
+                    <a href="formulaire.php" class="col-md-8 col-sm-8 col-xs-12">
                         <button type="button" class="btn btn-primary btn-lg bouton">Effectuer son suivi</button>
                     </a>
 

@@ -20,7 +20,7 @@
 
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
     <a class="navbar-brand" href="index.php">LPO Touchard - Washington</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
                     <span class="navbar-toggler-icon"></span>
