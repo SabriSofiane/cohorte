@@ -16,7 +16,7 @@ Powered with Bootstrap
     <body>
 
         <a href="index.php" class="logo" >
-            <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" class="logo" style="padding-left: 12px;padding-top: 12px;" />
+            <img src="images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" class="logo" style="padding-top: 60px; padding-left: 12px;" />
         </a>
         <div class="container-fluid">
             <h1 class="titre" style="right: 600px;"  >Suivi d'inscription</h1>

@@ -160,7 +160,7 @@ if (isset($_POST['btn_supprimer'])) {
     </head>
     <body>
         <?php require_once '../menu.php'; ?>
-        <div class="container" style="padding-top: 5px; max-width: 1500px;">
+        <div class="container" style="padding-top: 50px; max-width: 1500px;">
             <div class="row popin card">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div  class="card-header" style=""><h4>Vue des élèves</h4></div>

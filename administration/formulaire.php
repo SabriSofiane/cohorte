@@ -55,10 +55,10 @@ Powered with Bootstrap
     <body>
 
         <a href="index.php" class="logo" >
-            <img src="../images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" class="logo" style="padding-left: 12px;padding-top: 12px;" />
+            <img src="../images/LYCEE-TW-RVB-BLEU@2x-ouqqzhaifqs0ecueqajd2l306gb31pbjc3bpoxcfrw.png" alt="Logo" class="logo" style="padding-left: 12px;padding-top: 65px;" />
         </a>
         <div class="container-fluid">
-            <h1 class="titre" style="right: 600px;"  >Suivi d'inscription</h1>
+            <h1 class="titreFormulaire"   >Suivi d'inscription</h1>
         </div>
         <div class="container-fluid "> 
             <a href="../index.php">
@@ -189,7 +189,9 @@ Powered with Bootstrap
                         <div class="form-row " >
                             <button type="submit" class="btn btn-primary  ">Envoyer</button>
                         </div>
-
+                        <br/>
+                        <br/>
+                        
                     </div>
                 </form>
             </div>
