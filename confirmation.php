@@ -1,6 +1,7 @@
 <!--
 Createur : Sabri Sofiane
 Date de création : 13 octobre 2020
+Modified   : 6 nov. 2020, 10:41:39
 Description : Page de confirmation après envoi du formuliare
 Powered with Bootstrap
 -->

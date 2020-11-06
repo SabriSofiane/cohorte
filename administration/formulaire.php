@@ -28,6 +28,7 @@ if (isset($_GET['id'])) {
 <!--
 Createur : Sabri Sofiane
 Date de création : 13 octobre 2020
+Modified   : 6 nov. 2020, 10:41:39
 Description : Le formulaire auquel l'utilisateur va remplir pour effectuer son suivi de cohorte
 Powered with Bootstrap
 -->
