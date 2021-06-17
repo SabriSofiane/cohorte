@@ -7,3 +7,5 @@
 - Si vous n'arrivez pas à accéder au menu Administration, vérifier que le chemin d'accès est bien le même qu'au répertoire source du site dans le fichier .htaccess.
 
 
+Site web: http://touchardinforeseau.servehttp.com/cohorte/
+
